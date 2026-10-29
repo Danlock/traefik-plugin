@@ -10,7 +10,7 @@ version: ## Show software version
 	@echo $(VERSION)
 
 release: ## Release Go module version via new git tag
-	@git checkout master
+	@git checkout main
 	@git pull
 	@echo "Tagging new release of web/pkg as $(VERSION)"
 	@git tag $(VERSION)
