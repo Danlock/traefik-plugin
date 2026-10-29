@@ -12,6 +12,6 @@ version: ## Show software version
 release: ## Release Go module version via new git tag
 	@git checkout main
 	@git pull
-	@echo "Tagging new release of web/pkg as $(VERSION)"
+	@echo "Tagging new release of traefik-plugin as $(VERSION)"
 	@git tag $(VERSION)
 	@git push --tags
