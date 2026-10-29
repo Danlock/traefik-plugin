@@ -1,0 +1,10 @@
+displayName: Daniel's Custom Traefik Plugin
+type: middleware
+
+import: github.com/danlock/traefik-plugin
+
+summary: '[Test] Logging SNI'
+
+testData:
+  Headers:
+    Foo: Bar
